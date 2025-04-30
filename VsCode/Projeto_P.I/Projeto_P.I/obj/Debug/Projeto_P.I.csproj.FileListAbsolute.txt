@@ -1,0 +1,17 @@
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\bin\Debug\Projeto_P.I.exe.config
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\bin\Debug\Projeto_P.I.exe
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\bin\Debug\Projeto_P.I.pdb
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.csproj.AssemblyReference.cache
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.FormLogin.resources
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.Properties.Resources.resources
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.csproj.GenerateResource.cache
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.csproj.CoreCompileInputs.cache
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.exe
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.pdb
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.FormMenu.resources
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\bin\Debug\Guna.UI2.dll
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_.208010C6.Up2Date
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.FormCadastroMesas.resources
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.FormCadastroReservas.resources
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.FormCadastroClientes.resources
+C:\Users\izabella.ssantos5\Desktop\projeto P.I\Projeto-PI---Reserve-the-Table\Projeto PI - Reserve the Table\VS_code\Projeto_P.I\Projeto_P.I\obj\Debug\Projeto_P.I.FormListagemReservas.resources

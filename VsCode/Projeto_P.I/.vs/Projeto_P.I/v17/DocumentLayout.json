@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|c:\\users\\izabella.ssantos5\\desktop\\projeto-pi---reserve-the-table\\vscode\\projeto_p.i\\projeto_p.i\\formlistagemreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|solutionrelative:projeto_p.i\\formlistagemreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\projeto_p.i\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|solutionrelative:projeto_p.i\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\projeto_p.i\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|solutionrelative:projeto_p.i\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\projeto_p.i\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|solutionrelative:projeto_p.i\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\projeto_p.i\\formcadastroreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|solutionrelative:projeto_p.i\\formcadastroreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\projeto_p.i\\formcadastroclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|solutionrelative:projeto_p.i\\formcadastroclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\projeto_p.i\\formcadastromesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|solutionrelative:projeto_p.i\\formcadastromesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\projeto_p.i\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B73C428-68AC-4DE7-8082-A8D0A0663613}|Projeto_P.I\\Projeto_P.I.csproj|solutionrelative:projeto_p.i\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormListagemReservas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\FormListagemReservas.cs",
+              "RelativeDocumentMoniker": "Projeto_P.I\\FormListagemReservas.cs",
+              "ToolTip": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\FormListagemReservas.cs [Design]",
+              "RelativeToolTip": "Projeto_P.I\\FormListagemReservas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T23:12:41.456Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormCadastroClientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\FormCadastroClientes.cs",
+              "RelativeDocumentMoniker": "Projeto_P.I\\FormCadastroClientes.cs",
+              "ToolTip": "C:\\Users\\izabella.ssantos5\\Desktop\\projeto P.I\\Projeto-PI---Reserve-the-Table\\Projeto PI - Reserve the Table\\VS_code\\Projeto_P.I\\Projeto_P.I\\FormCadastroClientes.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\projeto P.I\\Projeto-PI---Reserve-the-Table\\Projeto PI - Reserve the Table\\VS_code\\Projeto_P.I\\Projeto_P.I\\FormCadastroClientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:29:59.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormCadastroReservas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\FormCadastroReservas.cs",
+              "RelativeDocumentMoniker": "Projeto_P.I\\FormCadastroReservas.cs",
+              "ToolTip": "C:\\Users\\izabella.ssantos5\\Desktop\\projeto P.I\\Projeto-PI---Reserve-the-Table\\Projeto PI - Reserve the Table\\VS_code\\Projeto_P.I\\Projeto_P.I\\FormCadastroReservas.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\projeto P.I\\Projeto-PI---Reserve-the-Table\\Projeto PI - Reserve the Table\\VS_code\\Projeto_P.I\\Projeto_P.I\\FormCadastroReservas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T00:51:04.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\FormMenu.cs",
+              "RelativeDocumentMoniker": "Projeto_P.I\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\izabella.ssantos5\\Desktop\\projeto P.I\\Projeto-PI---Reserve-the-Table\\Projeto PI - Reserve the Table\\VS_code\\Projeto_P.I\\Projeto_P.I\\FormMenu.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\projeto P.I\\Projeto-PI---Reserve-the-Table\\Projeto PI - Reserve the Table\\VS_code\\Projeto_P.I\\Projeto_P.I\\FormMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:47:10.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\Program.cs",
+              "RelativeDocumentMoniker": "Projeto_P.I\\Program.cs",
+              "ToolTip": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\Program.cs",
+              "RelativeToolTip": "Projeto_P.I\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T00:53:43.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Projeto_P.I\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\izabella.ssantos5\\Desktop\\projeto P.I\\Projeto-PI---Reserve-the-Table\\Projeto PI - Reserve the Table\\VS_code\\Projeto_P.I\\Projeto_P.I\\FormLogin.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\projeto P.I\\Projeto-PI---Reserve-the-Table\\Projeto PI - Reserve the Table\\VS_code\\Projeto_P.I\\Projeto_P.I\\FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:09:53.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormCadastroMesas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\FormCadastroMesas.cs",
+              "RelativeDocumentMoniker": "Projeto_P.I\\FormCadastroMesas.cs",
+              "ToolTip": "C:\\Users\\izabella.ssantos5\\Desktop\\projeto P.I\\Projeto-PI---Reserve-the-Table\\Projeto PI - Reserve the Table\\VS_code\\Projeto_P.I\\Projeto_P.I\\FormCadastroMesas.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\projeto P.I\\Projeto-PI---Reserve-the-Table\\Projeto PI - Reserve the Table\\VS_code\\Projeto_P.I\\Projeto_P.I\\FormCadastroMesas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T00:14:59.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Projeto_P.I\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\izabella.ssantos5\\Desktop\\Projeto-PI---Reserve-the-Table\\VsCode\\Projeto_P.I\\Projeto_P.I\\FormLogin.cs",
+              "RelativeToolTip": "Projeto_P.I\\FormLogin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T23:19:59.859Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
