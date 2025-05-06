@@ -16,5 +16,10 @@ namespace Projeto_P.I
         {
             InitializeComponent();
         }
+
+        private void picImagem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
