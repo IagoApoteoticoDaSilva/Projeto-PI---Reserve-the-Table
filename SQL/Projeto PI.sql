@@ -28,6 +28,12 @@ CREATE TABLE reserva(
         REFERENCES mesa(idMesa)
 );
 
+CREATE TABLE Garcom(
+    idGarcom INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(45) NOT NULL,
+    senha VARCHAR(4) NOT NULL
+);
+
 
 -- Cliente (teste)
 INSERT INTO cliente (nome, telefone)
@@ -49,3 +55,11 @@ INSERT INTO reserva (clienteId, mesaId, dataReserva, horaReserva)
 VALUES 
 (1, 2, '2025-04-20', '19:30');
 SELECT * FROM reserva;
+
+-- Garcom (teste)
+INSERT INTO garcom (idGarcom, nome, senha)
+VALUES
+(1, 'IAGO SANTOS', '2201'),
+(2, 'JONAS ARAUJO', '2802'),
+(3, 'iZABELLA SILVA', '0111');
+SELECT * FROM garcom;
