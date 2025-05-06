@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCadastroReservas));
             this.panelHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.lblCadReservas = new System.Windows.Forms.Label();
             this.lblCliente = new System.Windows.Forms.Label();
@@ -37,10 +38,11 @@
             this.lblDataReserva = new System.Windows.Forms.Label();
             this.dtpDataReserva = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.lblHora = new System.Windows.Forms.Label();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.dtpHoraReserva = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.lblQtdPessoas = new System.Windows.Forms.Label();
             this.nudQtdPessoas = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.btnSalvarReserva = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
             this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudQtdPessoas)).BeginInit();
             this.SuspendLayout();
@@ -48,6 +50,7 @@
             // panelHeader
             // 
             this.panelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panelHeader.Controls.Add(this.btnMenu);
             this.panelHeader.Controls.Add(this.lblCadReservas);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
@@ -119,7 +122,7 @@
             this.cbMesa.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbMesa.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbMesa.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.cbMesa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbMesa.ForeColor = System.Drawing.Color.Black;
             this.cbMesa.ItemHeight = 30;
             this.cbMesa.Items.AddRange(new object[] {
             "1",
@@ -175,20 +178,20 @@
             this.lblHora.TabIndex = 7;
             this.lblHora.Text = "Hora:";
             // 
-            // guna2DateTimePicker1
+            // dtpHoraReserva
             // 
-            this.guna2DateTimePicker1.BorderRadius = 8;
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(421, 310);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(179, 40);
-            this.guna2DateTimePicker1.TabIndex = 9;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2025, 4, 28, 22, 4, 25, 51);
+            this.dtpHoraReserva.BorderRadius = 8;
+            this.dtpHoraReserva.Checked = true;
+            this.dtpHoraReserva.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.dtpHoraReserva.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpHoraReserva.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dtpHoraReserva.Location = new System.Drawing.Point(421, 310);
+            this.dtpHoraReserva.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpHoraReserva.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpHoraReserva.Name = "dtpHoraReserva";
+            this.dtpHoraReserva.Size = new System.Drawing.Size(179, 40);
+            this.dtpHoraReserva.TabIndex = 9;
+            this.dtpHoraReserva.Value = new System.DateTime(2025, 4, 28, 22, 4, 25, 51);
             // 
             // lblQtdPessoas
             // 
@@ -243,6 +246,22 @@
             this.btnSalvarReserva.TabIndex = 12;
             this.btnSalvarReserva.Text = "Salvar Reserva";
             // 
+            // btnMenu
+            // 
+            this.btnMenu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMenu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMenu.FillColor = System.Drawing.Color.Transparent;
+            this.btnMenu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMenu.ForeColor = System.Drawing.Color.White;
+            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
+            this.btnMenu.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnMenu.Location = new System.Drawing.Point(12, 12);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(70, 45);
+            this.btnMenu.TabIndex = 10;
+            // 
             // FormCadastroReservas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -252,7 +271,7 @@
             this.Controls.Add(this.btnSalvarReserva);
             this.Controls.Add(this.nudQtdPessoas);
             this.Controls.Add(this.lblQtdPessoas);
-            this.Controls.Add(this.guna2DateTimePicker1);
+            this.Controls.Add(this.dtpHoraReserva);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.dtpDataReserva);
             this.Controls.Add(this.lblDataReserva);
@@ -284,9 +303,10 @@
         private System.Windows.Forms.Label lblDataReserva;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpDataReserva;
         private System.Windows.Forms.Label lblHora;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpHoraReserva;
         private System.Windows.Forms.Label lblQtdPessoas;
         private Guna.UI2.WinForms.Guna2NumericUpDown nudQtdPessoas;
         private Guna.UI2.WinForms.Guna2Button btnSalvarReserva;
+        private Guna.UI2.WinForms.Guna2Button btnMenu;
     }
 }
