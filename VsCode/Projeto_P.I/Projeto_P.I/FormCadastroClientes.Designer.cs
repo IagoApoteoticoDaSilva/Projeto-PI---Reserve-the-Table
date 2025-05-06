@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCadastroClientes));
             this.PanelHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.lblCadCliente = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
@@ -41,12 +42,14 @@
             this.txtCpf = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtObservação = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnSalvarCliente = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
             this.PanelHeader.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelHeader
             // 
             this.PanelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.PanelHeader.Controls.Add(this.btnMenu);
             this.PanelHeader.Controls.Add(this.lblCadCliente);
             this.PanelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelHeader.Location = new System.Drawing.Point(0, 0);
@@ -58,6 +61,7 @@
             // 
             this.lblCadCliente.AutoSize = true;
             this.lblCadCliente.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadCliente.ForeColor = System.Drawing.Color.White;
             this.lblCadCliente.Location = new System.Drawing.Point(268, 32);
             this.lblCadCliente.Name = "lblCadCliente";
             this.lblCadCliente.Size = new System.Drawing.Size(250, 37);
@@ -125,8 +129,10 @@
             this.txtNome.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtNome.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNome.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.ForeColor = System.Drawing.Color.Black;
             this.txtNome.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNome.Location = new System.Drawing.Point(200, 140);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNome.Name = "txtNome";
             this.txtNome.PlaceholderText = "Digite o nome completo";
             this.txtNome.SelectedText = "";
@@ -144,6 +150,7 @@
             this.txtTelefone.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtTelefone.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTelefone.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.ForeColor = System.Drawing.Color.Black;
             this.txtTelefone.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTelefone.Location = new System.Drawing.Point(200, 220);
             this.txtTelefone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -164,6 +171,7 @@
             this.txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Location = new System.Drawing.Point(200, 300);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -184,6 +192,7 @@
             this.txtCpf.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCpf.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCpf.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCpf.ForeColor = System.Drawing.Color.Black;
             this.txtCpf.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCpf.Location = new System.Drawing.Point(430, 220);
             this.txtCpf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -204,6 +213,7 @@
             this.txtObservação.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtObservação.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtObservação.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtObservação.ForeColor = System.Drawing.Color.Black;
             this.txtObservação.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtObservação.Location = new System.Drawing.Point(200, 380);
             this.txtObservação.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -229,6 +239,23 @@
             this.btnSalvarCliente.Size = new System.Drawing.Size(400, 45);
             this.btnSalvarCliente.TabIndex = 12;
             this.btnSalvarCliente.Text = "Salvar Cliente";
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMenu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMenu.FillColor = System.Drawing.Color.Transparent;
+            this.btnMenu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMenu.ForeColor = System.Drawing.Color.White;
+            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
+            this.btnMenu.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnMenu.Location = new System.Drawing.Point(12, 12);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(70, 45);
+            this.btnMenu.TabIndex = 1;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // FormCadastroClientes
             // 
@@ -273,5 +300,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txtCpf;
         private Guna.UI2.WinForms.Guna2TextBox txtObservação;
         private Guna.UI2.WinForms.Guna2Button btnSalvarCliente;
+        private Guna.UI2.WinForms.Guna2Button btnMenu;
     }
 }
