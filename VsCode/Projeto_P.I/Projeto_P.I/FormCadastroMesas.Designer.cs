@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCadastroMesas));
             this.lblCadMesa = new System.Windows.Forms.Label();
             this.txtNumeroMesa = new Guna.UI2.WinForms.Guna2TextBox();
             this.nudCapacidade = new Guna.UI2.WinForms.Guna2NumericUpDown();
@@ -37,6 +38,7 @@
             this.lblNumeroMesa = new System.Windows.Forms.Label();
             this.lblCapacidade = new System.Windows.Forms.Label();
             this.lblStatus = new System.Windows.Forms.Label();
+            this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudCapacidade)).BeginInit();
             this.panelHeader.SuspendLayout();
             this.SuspendLayout();
@@ -65,6 +67,7 @@
             this.txtNumeroMesa.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtNumeroMesa.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNumeroMesa.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumeroMesa.ForeColor = System.Drawing.Color.Black;
             this.txtNumeroMesa.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNumeroMesa.Location = new System.Drawing.Point(200, 150);
             this.txtNumeroMesa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -110,7 +113,7 @@
             this.cbSatatus.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbSatatus.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbSatatus.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.cbSatatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbSatatus.ForeColor = System.Drawing.Color.Black;
             this.cbSatatus.ItemHeight = 30;
             this.cbSatatus.Items.AddRange(new object[] {
             "Disponível",
@@ -143,6 +146,7 @@
             this.panelHeader.AutoScroll = true;
             this.panelHeader.AutoScrollMinSize = new System.Drawing.Size(0, 80);
             this.panelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panelHeader.Controls.Add(this.btnMenu);
             this.panelHeader.Controls.Add(this.lblCadMesa);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
@@ -179,6 +183,22 @@
             this.lblStatus.Size = new System.Drawing.Size(55, 21);
             this.lblStatus.TabIndex = 8;
             this.lblStatus.Text = "Status:";
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMenu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMenu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMenu.FillColor = System.Drawing.Color.Transparent;
+            this.btnMenu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMenu.ForeColor = System.Drawing.Color.White;
+            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
+            this.btnMenu.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnMenu.Location = new System.Drawing.Point(12, 12);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(70, 45);
+            this.btnMenu.TabIndex = 9;
             // 
             // FormCadastroMesas
             // 
@@ -217,5 +237,6 @@
         private System.Windows.Forms.Label lblNumeroMesa;
         private System.Windows.Forms.Label lblCapacidade;
         private System.Windows.Forms.Label lblStatus;
+        private Guna.UI2.WinForms.Guna2Button btnMenu;
     }
 }
