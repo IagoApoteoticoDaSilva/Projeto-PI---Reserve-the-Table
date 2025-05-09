@@ -61,5 +61,5 @@ INSERT INTO garcom (idGarcom, nome, senha)
 VALUES
 (1, 'IAGO SANTOS', '2201'),
 (2, 'JONAS ARAUJO', '2802'),
-(3, 'iZABELLA SILVA', '0111');
+(3, 'IZABELLA SILVA', '0111');
 SELECT * FROM garcom;
